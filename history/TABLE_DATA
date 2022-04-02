@@ -1,0 +1,5 @@
+<tr>
+<td>{$GLOBALS['row']['to_address']}</td>
+<td>{$GLOBALS['row']['subject']}</td>
+<td>{$GLOBALS['row']['one_comment']}</td>
+</tr>

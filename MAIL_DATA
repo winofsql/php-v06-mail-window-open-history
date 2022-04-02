@@ -1,0 +1,11 @@
+--{$GLOBALS['uniqid']}
+Content-Type: text/plain; charset="ISO-2022-JP"
+
+{$_POST['text']}
+--{$GLOBALS['uniqid']}
+Content-Type: {$GLOBALS['mime']}; name="{$GLOBALS['fname']}"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="{$GLOBALS['fname']}"
+
+{$GLOBALS['base64']}
+--{$GLOBALS['uniqid']}--
